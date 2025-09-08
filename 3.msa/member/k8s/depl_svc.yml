@@ -26,9 +26,9 @@ spec:
             cpu: "1"
             memory: "500Mi"
         # 컨테이너가 시작될 때 보장받아야 하는 최소 자원
-          requests: 
-            cpu: "0.5"
-            memory: "250Mi"
+          # requests: 
+          #   cpu: "0.5"
+          #   memory: "250Mi"
         env:
         # 아래의 name과 yml의 ${}의 변수명과 일치해야함
         - name: DB_HOST
